@@ -1,3 +1,20 @@
+/* ------------Color Scheme-Blue------------- */
+/* --- #151A75 , #767DF7 , #2D36F5 , #383B75 , #232BC2 -- */
+/* ------------------------------------------ */
+/* -----------Color Scheme-Multi------------- */
+/* --- #141FF5 , #F54845 , #2D36F5 , #F5C814 , #20F565 -- */
+/* ------------------------------------------ */
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-    background-color:lightslategray;
+    font-family: 'Mukta', sans-serif;
 }

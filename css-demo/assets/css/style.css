@@ -1,3 +1,41 @@
+/* ------------Color Scheme-Blue------------- */
+/* --- #487BB5 , #2F5075 , #61A7F5 , #152436 , #5895DB -- */
+/* ------------------------------------------ */
+/* -----------Color Scheme-Multi------------- */
+/* --- #141FF5 , #F54845 , #2D36F5 , #F5C814 , #20F565 -- */
+/* ------------------------------------------ */
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Global Styles----------------- */
 body {
-    background-color:blue;
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+}
+
+header.primary{
+  background-color: #2F5075;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px #152436;
+  /* ------Top/Bottom, Left/Right-- */
+  padding: 20px 40px;
+}
+
+header.primary h1{
+  font-size: 3.2rem;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  text-decoration: none;
+  color: #ffffff;
 }
