@@ -14,9 +14,9 @@ html {
 /* ---------------Utility Styles----------------- */
 
 .container{
-  width:80vw;
-  margin:40px auto;
-  max-width:900px;
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
 }
 
 /* ---------------Global Styles----------------- */
@@ -43,18 +43,22 @@ header.primary h1{
 }
 
 header.primary h1 a{
-  text-decoration:none;
-  color:#ffffff;
+  text-decoration: none;
+  color: #000000;
+}
+
+body h2 {
+  color: #072685;
 }
 
 body nav ul li{
-  list-style-type:none;
-  padding:10px;
+  list-style-type: none;
+  padding: 10px;
 }
 
 body nav ul li a:link, body nav ul li a:visited{
-  color: #072785;
-  text-decoration:none;
+  color: #000000;
+  text-decoration: none;
    /*  background-color:#000000; */
    /* background-color:rgba(0,0,0,.4); */
   padding: 8px 16px;
@@ -64,23 +68,25 @@ body nav ul li a:link, body nav ul li a:visited{
 
 body nav ul li a:hover, body nav ul li a:active{
   /* background-color:rgba(0,0,0,.8); */
-  color:#1953FF;
+  color: #1953FF;
+  transition:.5s;
 }
 
 @media screen and (max-width:690px){
   
   header.primary nav ul {
-    flex-direction:column;
-    max-width:400px;
-    margin:0 auto;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
   }
   
   header.primary nav a{
-    display:block;
+    display: block;
   }
   
 }
 
 footer h6 {
   text-align: center;
+  color: #072685
 }
