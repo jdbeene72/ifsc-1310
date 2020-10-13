@@ -72,6 +72,11 @@ body nav ul li a:hover, body nav ul li a:active{
   transition:.5s;
 }
 
+footer h6 {
+  text-align: center;
+  color: #072685
+}
+
 @media screen and (max-width:690px){
   
   header.primary nav ul {
@@ -84,9 +89,4 @@ body nav ul li a:hover, body nav ul li a:active{
     display: block;
   }
   
-}
-
-footer h6 {
-  text-align: center;
-  color: #072685
 }
