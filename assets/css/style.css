@@ -1,7 +1,27 @@
 /* -------------- J.D. Beene Github Home Page Style Sheet---------------- */
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Utility Styles----------------- */
+
+.container{
+  width:80vw;
+  margin:40px auto;
+  max-width:900px;
+}
+
+/* ---------------Global Styles----------------- */
 body {
     font-family: 'Mukta', sans-serif;
-    background-color: #2F5075;
     margin: 0;
 }
 
@@ -10,15 +30,57 @@ header.primary{
   color: #ffffff;
   text-shadow: 2px 2px #152436;
   /* ------Top/Bottom, Left/Right-- */
-  padding: 20px 40px;
+  /*padding: 20px 40px;*/
+  padding: 20px;
+  background-color: #D12B00;
 }
 
 header.primary h1{
-  font-size: 3.2rem;
+  text-align: center;
+  font-size:3.2rem;
   margin: 20px 0;
+  /*background-color:red;*/
 }
 
 header.primary h1 a{
-  text-decoration: none;
-  color: #ffffff;
+  text-decoration:none;
+  color:#ffffff;
+}
+
+body nav ul li{
+  list-style-type:none;
+  padding:10px;
+}
+
+body nav ul li a:link, body nav ul li a:visited{
+  color: #072785;
+  text-decoration:none;
+   /*  background-color:#000000; */
+   /* background-color:rgba(0,0,0,.4); */
+  padding: 8px 16px;
+   /* border-radius:20px; */
+   /* transition:.5s; */ 
+}
+
+body nav ul li a:hover, body nav ul li a:active{
+  /* background-color:rgba(0,0,0,.8); */
+  color:#1953FF;
+}
+
+@media screen and (max-width:690px){
+  
+  header.primary nav ul {
+    flex-direction:column;
+    max-width:400px;
+    margin:0 auto;
+  }
+  
+  header.primary nav a{
+    display:block;
+  }
+  
+}
+
+footer h6 {
+  text-align: center;
 }
