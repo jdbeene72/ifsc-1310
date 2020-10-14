@@ -19,6 +19,12 @@ html {
   max-width: 900px;
 }
 
+/* ---------------Responsive Images----------------- */
+img {
+  max-width:100%;
+  height:auto;
+}
+
 /* ---------------Global Styles----------------- */
 body {
     font-family: 'Mukta', sans-serif;
@@ -29,34 +35,41 @@ header.primary{
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #152436;
-  /* ------Top/Bottom, Left/Right-- */
-  /*padding: 20px 40px;*/
-  padding: 20px;
+  padding: 10px;
   background-color: #D12B00;
 }
 
 header.primary h1{
-  text-align: center;
   font-size:3.2rem;
-  margin: 20px 0;
-  /*background-color:red;*/
+  margin: 10px 0;
 }
 
-header.primary h1 a{
-  text-decoration: none;
-  color: #000000;
+header.primary h2{
+  font-size:2rem;
+  margin:10px auto 10px;
 }
 
-body h2 {
+#container {
+  width: 80vw;
+  margin: 20px auto;
+  max-width: 900px;
+  border-bottom: 1px solid #c0c0c0;
+  /*border-top:5px double #c0c0c0;*/
+  padding-bottom: 1.5em;    /*-- padding is top/bottom, margin is left/right--*/
+}
+
+#container h3 {
+  margin: 10px auto;
   color: #072685;
+  font-size: 1.5rem;
 }
 
-body nav ul li{
+#container nav ul li {
+  margin: 10px auto;
   list-style-type: none;
-  /*padding: 10px;*/
 }
 
-body nav ul li a:link, body nav ul li a:visited{
+#container nav ul li a:link, body nav ul li a:visited{
   color: #000000;
   text-decoration: none;
    /*  background-color:#000000; */
@@ -66,13 +79,15 @@ body nav ul li a:link, body nav ul li a:visited{
    /* transition:.5s; */ 
 }
 
-body nav ul li a:hover, body nav ul li a:active{
+#container nav ul li a:hover, body nav ul li a:active{
   /* background-color:rgba(0,0,0,.8); */
   color: #1953FF;
+  text-shadow: 2px 2px #000;
+  font-size:1.5rem;
   transition:.5s;
 }
 
-footer h6 {
+#colophon h6 {
   text-align: center;
   color: #072685
 }
