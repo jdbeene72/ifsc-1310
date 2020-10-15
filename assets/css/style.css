@@ -54,7 +54,6 @@ header.primary h2{
   margin: 20px auto;
   max-width: 900px;
   border-bottom: 1px solid #c0c0c0;
-  /*border-top:5px double #c0c0c0;*/
   padding-bottom: 1.5em;    /*-- padding is top/bottom, margin is left/right--*/
 }
 
@@ -64,27 +63,39 @@ header.primary h2{
   font-size: 1.5rem;
 }
 
-#container nav ul li {
+#container nav{
+  width: 80vw;
   margin: 10px auto;
+  max-width: 900px;
+  /*border: 1px solid;*/
+}
+
+#container nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+#container nav ul li {
   list-style-type: none;
+  padding: 5px 20px 30px 20px;
 }
 
 #container nav ul li a:link, body nav ul li a:visited{
   color: #000000;
   text-decoration: none;
-   /*  background-color:#000000; */
-   /* background-color:rgba(0,0,0,.4); */
-  /* padding: 8px 16px;*/
-   /* border-radius:20px; */
-   /* transition:.5s; */ 
+  background-color:#000000;
+  background-color:rgba(0,0,0,.4); 
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition:.5s;
 }
 
 #container nav ul li a:hover, body nav ul li a:active{
-  /* background-color:rgba(0,0,0,.8); */
-  color: #1953FF;
-  text-shadow: 2px 2px #000;
-  font-size:1.5rem;
-  transition:.5s;
+  background-color:rgba(0,0,0,.8); 
+  color: #ffffff;
 }
 
 #colophon h6 {
