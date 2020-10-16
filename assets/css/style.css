@@ -97,7 +97,7 @@ header.primary h2{
 }
 
 #container nav ul li a:hover, body nav ul li a:active{
-  background-color:rgba(0,0,0,.8); 
+  background-color:rgba(0,0,0,.7); 
   color: #ffffff;
 }
 
