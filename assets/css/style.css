@@ -88,7 +88,7 @@ header.primary h2{
   color: #000000;
   text-decoration: none;
   background-color:#000000;
-  background-color:rgba(0,0,0,.4); 
+  background-color:rgba(0,0,0,.2); 
   padding: 8px 16px;
   border-radius: 10px;
   transition:.5s;
