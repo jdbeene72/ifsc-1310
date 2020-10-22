@@ -19,6 +19,29 @@ html {
   max-width: 900px;
 }
 
+.img-right{
+  float:right;
+  padding:5px;
+  /*border:1px solid #c0c0c0;*/
+  margin-top: 40px;
+  /*margin: 10px 0 10px 20px;*/
+  height: 150px;
+  width: 150px;
+}
+
+.img-left{
+  float:left;
+  padding:5px;
+  margin: 10px 20px 10px 0;
+}
+
+.img-center{
+  display:block;
+  padding:5px;
+  /*border:1px solid #c0c0c0;*/
+  margin: 20px auto;
+}
+
 /* ---------------Responsive Images----------------- */
 img {
   max-width:100%;
@@ -106,6 +129,10 @@ header.primary h2{
   text-align: center;
   color: #072685
 }
+
+
+
+
 
 @media screen and (max-width:690px){
   
