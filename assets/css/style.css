@@ -20,24 +20,20 @@ html {
 }
 
 .img-right{
-  float:right;
-  padding:5px;
-  /*border:1px solid #c0c0c0;*/
-  margin-top: 40px;
-  /*margin: 10px 0 10px 20px;*/
-  height: 150px;
-  width: 150px;
+  float: right;
+  padding: 5px;
+  margin: 10px 20px 10px 0;
 }
 
 .img-left{
-  float:left;
-  padding:5px;
+  float: left;
+  padding: 5px;
   margin: 10px 20px 10px 0;
 }
 
 .img-center{
-  display:block;
-  padding:5px;
+  display: block;
+  padding: 5px;
   /*border:1px solid #c0c0c0;*/
   margin: 20px auto;
 }
@@ -92,6 +88,12 @@ header.primary h2{
   margin: 10px auto;
   max-width: 900px;
   /*border: 1px solid;*/
+}
+
+#container nav img{
+  margin-top: 40px;
+  height: 150px;
+  width: 165px;
 }
 
 #container nav ul{
