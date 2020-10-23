@@ -73,8 +73,8 @@ header.primary h2{
   width: 80vw;
   margin: 20px auto;
   max-width: 900px;
-  border-bottom: 1px solid #c0c0c0;
-  padding-bottom: 1.5em;    /*-- padding is top/bottom, margin is left/right--*/
+  border-bottom: 1.5px solid #3e0c00;
+  /*padding-bottom: .25em;    /*-- padding is top/bottom, margin is left/right--*/
 }
 
 #container h3 {
@@ -94,6 +94,7 @@ header.primary h2{
   margin-top: 40px;
   height: 150px;
   width: 165px;
+  padding-right:20px;
 }
 
 #container nav ul{
@@ -127,12 +128,23 @@ header.primary h2{
   color: #ffffff;
 }
 
+#lab1-links {
+  border-top: 1.5px solid #3e0c00;
+  padding-top: 1.5em; 
+}
+
+
+#lab1-links h3 {
+  float: right;
+  padding-top:125px;
+  padding-right:30px;
+  /*margin-top: 125px;*/
+}
+
 #colophon h6 {
   text-align: center;
   color: #072685
 }
-
-
 
 
 
