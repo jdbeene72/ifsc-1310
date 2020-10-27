@@ -87,7 +87,6 @@ header.primary h2{
   width: 80vw;
   margin: 10px auto;
   max-width: 900px;
-  /*border: 1px solid;*/
 }
 
 #container nav img{
@@ -138,7 +137,6 @@ header.primary h2{
   float: right;
   padding-top:125px;
   padding-right:30px;
-  /*margin-top: 125px;*/
 }
 
 #colophon h6 {
