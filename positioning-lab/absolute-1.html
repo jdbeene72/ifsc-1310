@@ -30,39 +30,30 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-#red {
-	background-color: #900;
-	float: left;
+
+.tile{
 	width: 150px;
 	height: 150px;
 	position: absolute;
+}
+
+#red {
+	background-color: #900;
  	top: 0;
  	left: 0;
 }
 #green {
 	background-color: #090;
-	float: right;
-	width: 150px;
-	height: 150px;
-	position: absolute;
  	top: 0;
  	right: 0;
 }
 #blue {
 	background-color: #00F;
-	float: left;
-	width: 150px;
-	height: 150px;
-	position: absolute;
  	bottom: 0;
  	left: 0;
 }
 #purple {
 	background-color: #63C;
-	float: right;
-	width: 150px;
-	height: 150px;
-	position: absolute;
 	bottom: 0;
  	right: 0;
 }
@@ -84,10 +75,10 @@ h1 {
 <body>
 <h1>Absolute 1</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
+  <div id="red" class="tile">Red</div>
+  <div id="green" class="tile">Green</div>
+  <div id="blue" class="tile">Blue</div>
+  <div id="purple" class="tile">Purple</div>
   <div id="footer">Footer</div>
 </div>
 </body>

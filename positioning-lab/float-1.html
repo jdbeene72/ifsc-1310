@@ -16,6 +16,7 @@ body {
 	text-align: center;
 	line-height: 24px;
 }
+
 #wrapper {
 	background-color: #FFF;
 	border-top-width: 1px;
@@ -29,40 +30,35 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 20px;
 }
-#red {
-	background-color: #900;
+
+.tile{
 	width: 370px;
 	height: 150px;
 	float: left;
-	margin: 20px 10px 10px 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#red {
+	background-color: #900;
 }
 #green {
 	background-color: #090;
-	width: 370px;
-	height: 150px;
-	float: right;
-	margin: 20px 20px 10px 10px;
 }
 #blue {
 	background-color: #00F;
-	width: 370px;
-	height: 150px;
-	float: left;
-	margin: 10px 10px 20px 20px;
 }
 #purple {
 	background-color: #63C;
-	width: 370px;
-	height: 150px;
-	float: right;
-	margin: 10px 20px 20px 10px;
 }
 #footer {
 	background-color: #666;
 	clear: both;
 	margin: 0px 20px 20px 20px;
 }
+
 h1 {
 	color: #000;
 	font-weight: normal;
@@ -74,10 +70,10 @@ h1 {
 <body>
 <h1>Float 1</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
+  <div id="red" class="tile">Red</div>
+  <div id="green" class="tile">Green</div>
+  <div id="blue" class="tile">Blue</div>
+  <div id="purple" class="tile">Purple</div>
   <div id="footer">Footer</div>
 </div>
 </body>
