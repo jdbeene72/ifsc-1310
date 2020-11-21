@@ -265,7 +265,7 @@ table tr:hover{
 }
 
 table th{
-  background-color:#252626;
+  background-color:#454647;
   color:#ffffff;
   width:20%;
   padding:10px;
@@ -279,7 +279,7 @@ table td {
 #colophon h6{
   color: #FF4E15;
   width: 80vw;
-  max-width: 800;
+  max-width: 900px;
   margin: 20px auto;
   text-transform:uppercase;
 }
