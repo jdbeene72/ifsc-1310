@@ -60,9 +60,10 @@ img{
 
 /* ---------------Global Styles----------------- */
 body{
-  font-family: "Roboto", sans-serif;
-  font-family: "Share Tech", sans-serif;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Share Tech', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   margin: 0;
 }
 
