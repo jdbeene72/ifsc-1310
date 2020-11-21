@@ -60,8 +60,10 @@ img{
 
 /* ---------------Global Styles----------------- */
 body{
-  font-family: 'Inter', sans-serif;
-  margin:0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
 }
 
 header.primary{
@@ -203,6 +205,19 @@ header.primary nav ul li a:active{
   border-radius:4px;
 }
 
+#questions {
+  width:80vw;
+  margin:40px auto;
+  max-width:900px;
+  border-bottom:1px solid #A6A8AB;
+}
+
+#questions h3{
+  padding:0;
+  font-size:1.3rem;
+  font-weight:bold;
+  color: #3498db;
+}
 
 #questions ul li{
   list-style-type:none;
@@ -214,14 +229,14 @@ header.primary nav ul li a:active{
 
 #questions ul li a:link, 
 #questions ul li a:visited{
-  color: #ffffff;
+  color: #FF4E15;
   text-decoration:none;
   transition:.5s;
 }
 
 #questions ul li a:hover, 
 #questions ul li a:active{
-  color: #FF4E15;
+  color: #3498db;
   text-decoration: none;
   transition:.5s;
 }
@@ -230,13 +245,12 @@ header.primary nav ul li a:active{
   width:80vw;
   margin:40px auto;
   max-width:900px;
+  border-bottom:1px solid #A6A8AB;
 }
 
 #answers dt{
   font-size: 1.1rem;
   color: #3498db;
-  padding-top: 15px;
-  padding-bottom: 5px;
 }
 
 #answers a{
@@ -247,7 +261,7 @@ header.primary nav ul li a:active{
 
 #answers a:link,
 #answers a:visited{
-  color: #8c8c8c;
+  color: #FF4E15;
   text-decoration:none;
 }
 
