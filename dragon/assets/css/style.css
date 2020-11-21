@@ -227,14 +227,14 @@ header.primary nav ul li a:active{
 
 #questions ul li a:link, 
 #questions ul li a:visited{
-  color: #FF4E15;
+  color: #FFFFFF;
   text-decoration:none;
   transition:.5s;
 }
 
 #questions ul li a:hover, 
 #questions ul li a:active{
-  color: #3498db;
+  color: #FF4E15;
   text-decoration: none;
   transition:.5s;
 }
