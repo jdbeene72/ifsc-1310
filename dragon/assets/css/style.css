@@ -1,22 +1,19 @@
-/* ------------ DragonX Style Sheet------------- */
-
-/* ---------------Box Sizing----------------- */
-
-/*Colors
+/* Colors  
 #3498db (blue)
 #FF4E15 (orange-red)
 #ffffff (white)
 #000000 (black)
-#A6A8AB (grey)*/
+#A6A8AB (grey)
+*/
 
-html {
+html{
   box-sizing: border-box;
   color:#ffffff;
   background-color: #000000;
 }
 *,
 *:before,
-*:after {
+*:after{
   box-sizing: inherit;
 }
 
@@ -27,7 +24,8 @@ html {
   margin:40px auto;
   max-width:900px;
   color:#ffffff;
-  background-color: #000000;
+  border-bottom: 1px solid #A6A8AB;
+  padding-bottom: 1em;
 }
 
 .img-right{
@@ -51,6 +49,22 @@ html {
   margin: 20px auto;
 }
 
+.text-white{
+  color: #ffffff;
+}
+
+.text-blue{
+  color: #3498db;
+}
+
+.text-orange{
+  color: #FF4E15;
+}
+
+.text-gray{
+  color: #A6A8AB;
+}
+
 /* ---------------Responsive Images----------------- */
 img{
   max-width:100%;
@@ -63,6 +77,13 @@ body{
   margin: 0;
 }
 
+h3{
+  padding: 0;
+  font-size:1.5rem;
+  font-weight:bold;
+  color: #3498db;
+}
+
 header.primary{
   text-align: center;
   background-image: url("../img/header.jpg");
@@ -70,7 +91,7 @@ header.primary{
   background-position: center top;
 }
 
-header.primary h1 {
+header.primary h1{
   font-size: .15rem;
   color: #000000;
   margin: 20px 0;
@@ -121,70 +142,16 @@ header.primary nav ul li a:active{
   padding-bottom: 1.5em;  
 }
 
-#intro h3{
-  padding:0;
-  font-size:1.5rem;
-  font-weight:bold;
-  color: #3498db;
-}
-
-#intro ul{
-  padding-bottom: 50px;
-}
-
-#intro ul li{
-  list-style-type:none;
-  text-decoration:none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 10px 0px;
-}
-
-#intro ul li a:link, 
-#intro ul li a:visited{
-  color:#ffffff;
-  text-decoration:none;
-  transition:.5s;
-}
-
-#intro ul li a:hover, 
-#intro ul li a:active{
-  color: #FF4E15;
-  transition:.5s;
-}
-
-#information {
+#information{
   border-bottom: 1px solid #A6A8AB;
   padding-bottom: 1.5em;  
 }
 
-#information h3{
-  padding:0;
-  font-size:1.5rem;
-  font-weight:bold;
-  color: #3498db;
-}
-
-#content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom:1px solid #A6A8AB;
-  padding-bottom:2.6rem;
-}
-
-#questions {
+#questions{
   width:80vw;
   margin:40px auto;
   max-width:900px;
   border-bottom:1px solid #A6A8AB;
-}
-
-#questions h3{
-  padding:0;
-  font-size:1.5rem;
-  font-weight:bold;
-  color: #3498db;
 }
 
 #questions ul li{
@@ -271,39 +238,30 @@ table th{
   padding:10px;
 }
 
-table td {
+table td{
   border:1px solid #A6A8AB;
   padding:5px;
 }
 
 #colophon h6{
-  color: #FF4E15;
   width: 80vw;
+  margin: 40px auto;
   max-width: 900px;
-  margin: 20px auto;
-  text-transform:uppercase;
-}
-
-#colophon h6 ul{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-}
-
-#colophon h6 ul li{
-  list-style-type:none;
+  color: #FF4E15;
   font-size:.9rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-#colophon h6 ul li a:link, 
-#colophon h6 ul li a:visited{
+#colophon h6 a:link, 
+#colophon h6 a:visited{
   color: #FF4E15;
   text-decoration:none;
   transition:.5s;
 }
 
-#colophon h6 ul li a:hover, 
-#colophon h6 ul li a:active{
+#colophon h6 a:hover, 
+#colophon h6 a:active{
   color: #3498db;
   transition:.5s;
 }
