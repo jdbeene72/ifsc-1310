@@ -28,7 +28,6 @@ html {
   max-width:900px;
   color:#ffffff;
   background-color: #000000;
-  /*background-color: red;*/
 }
 
 .img-right{
@@ -94,7 +93,6 @@ header.primary nav ul{
   justify-content: space-around;
   padding-top: 10px;
   padding-bottom: 10px;
-  /*border-top: 1px solid #c0c0c0;*/
   border-bottom: 3px double #c0c0c0;
 }
 
@@ -103,7 +101,6 @@ header.primary nav ul li{
   font-size:1.4rem;
   font-weight:bold;
   text-transform: uppercase;
-  width: 20%;
 }
 
 header.primary nav ul li a:link, 
@@ -174,33 +171,6 @@ header.primary nav ul li a:active{
   justify-content: space-between;
   border-bottom:1px solid #A6A8AB;
   padding-bottom:2.6rem;
-}
-
-#content article.post{
-  width:30%;
-  box-shadow: 0 4px 8px rgba(0,0,0,.4);
-  padding: .7em;
-  transition: .5s;
-  border-radius:10px;
-  font-size:.8rem;
-}
-
-#content article.post:hover{
-  box-shadow: 0 8px 16px rgba(0,0,0,.4);
-}
-
-#content .post figure{
-  margin:0;
-}
-
-#content article time, #content article figcaption, #content article footer{
-  font-size: .8rem;
-  text-transform: uppercase;
-  color: #A6A8AB;
-}
-
-#content article img{
-  border-radius:4px;
 }
 
 #questions {
@@ -275,6 +245,7 @@ table{
   border:1px solid #A6A8AB;
   border-collapse:collapse;
   font-size: .8em;
+  background-color: #525354;
 }
 
 table caption{
@@ -286,15 +257,15 @@ table caption{
 }
 
 table tr:nth-child(even){
-  background: rgba(0,0,0,.1)
+  background: rgba(57,58,59,.9)
 }
 
 table tr:hover{
-  background: rgba(0,0,0,.2)
+  background: rgba(0,0,0,.6)
 }
 
 table th{
-  background-color:#A6A8AB;
+  background-color:#252626;
   color:#ffffff;
   width:20%;
   padding:10px;
@@ -303,10 +274,6 @@ table th{
 table td {
   border:1px solid #A6A8AB;
   padding:5px;
-}
-
-.post a:link,.post a:visited{
-  color:#3b638b;
 }
 
 #colophon h6{
@@ -340,18 +307,3 @@ table td {
   color: #3498db;
   transition:.5s;
 }
-
-@media screen and (max-width:690px){
-  
-  header.primary nav ul {
-    flex-direction:column;
-    max-width:400px;
-    margin:0 auto;
-  }
-  
-  header.primary nav a{
-    display:block;
-  }
-  
-}
-
