@@ -4,6 +4,7 @@
 #ffffff (white)
 #000000 (black)
 #A6A8AB (grey)
+#C6C8CC (light grey)
 */
 
 html{
@@ -16,15 +17,19 @@ html{
 *:after{
   box-sizing: inherit;
 }
-
+/** { border: 1px solid red; }*/
 /* ---------------Utility Styles----------------- */
+
+.gradient{
+  background-image: linear-gradient(#000000,#242424);
+}
 
 .container{
   width:80vw;
-  margin:40px auto;
+  margin: auto;
   max-width:900px;
   color:#ffffff;
-  border-bottom: 1px solid #A6A8AB;
+  border-bottom: 1px solid #FF4E15;
   padding-bottom: 1em;
 }
 
@@ -94,27 +99,23 @@ header.primary{
 header.primary h1{
   font-size: .15rem;
   color: #000000;
-  margin: 20px 0;
-}
-
-header.primary h2{
-  font-size:1.4rem;
+  margin: 0;
 }
 
 header.primary nav{
   width:80vw;
-  margin: 20px auto;
+  margin: auto;
   max-width:900px;
-  padding-top: 235px;
+  padding-top: 225px;
+  border-bottom: 3px double #FF4E15;
+  padding-bottom: 0;
 }
 
 header.primary nav ul{
   display:flex;
   flex-direction:row;
   justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 3px double #c0c0c0;
+  padding-top: 30px;
 }
 
 header.primary nav ul li{
@@ -126,32 +127,21 @@ header.primary nav ul li{
 
 header.primary nav ul li a:link, 
 header.primary nav ul li a:visited{
-  color: #FF4E15;
+  color: #C6C8CC;
   text-decoration:none;
   transition:.5s;
 }
 
 header.primary nav ul li a:hover, 
 header.primary nav ul li a:active{
-  color: #3498db;
+  color: #FF4E15;
   transition:.5s;
-}
-
-#intro{
-  border-bottom: 1px solid #A6A8AB;
-  padding-bottom: 1.5em;  
-}
-
-#information{
-  border-bottom: 1px solid #A6A8AB;
-  padding-bottom: 1.5em;  
 }
 
 #questions{
   width:80vw;
-  margin:40px auto;
   max-width:900px;
-  border-bottom:1px solid #A6A8AB;
+  border-bottom:1px solid #FF4E15;
 }
 
 #questions ul li{
@@ -159,7 +149,7 @@ header.primary nav ul li a:active{
   text-decoration:none;
   font-weight: bold;
   font-size: 1.3rem;
-  padding: 10px 0px;
+  padding: 0 0 10px 0;
 }
 
 #questions ul li a:link, 
@@ -178,9 +168,8 @@ header.primary nav ul li a:active{
 
 #answers{
   width:80vw;
-  margin:40px auto;
   max-width:900px;
-  border-bottom:1px solid #A6A8AB;
+  border-bottom:1px solid #FF4E15;
 }
 
 #answers dt{
@@ -206,7 +195,6 @@ header.primary nav ul li a:active{
   transition:.5s;
 }
 
-
 table{
   width:100%;
   border:1px solid #A6A8AB;
@@ -218,6 +206,7 @@ table{
 table caption{
   color: #1587D4;
   padding-bottom: 20px;
+  padding-top: 20px;
   font-weight:bold;
   font-size:1.5rem;
   text-align: left;
@@ -245,12 +234,13 @@ table td{
 
 #colophon h6{
   width: 80vw;
-  margin: 40px auto;
+  margin: auto;
   max-width: 900px;
   color: #FF4E15;
   font-size:.9rem;
   text-align: center;
   text-transform: uppercase;
+  padding: 1.7em;
 }
 
 #colophon h6 a:link, 
