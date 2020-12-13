@@ -40,7 +40,8 @@ html{
   color:#000000;
   font-size: 1.2rem;
   border-bottom: 1px solid #A6A8AB;
-  padding-bottom: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
 }
 
 .img-right{
@@ -155,6 +156,22 @@ header.primary nav ul li a:active{
   transition:.5s;
 }
 
+.scroll-gallery {
+	background-color: #27308B;
+	width: 430px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 330px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 4px;
+}
+
+.scroll-gallery  img {
+	margin: 15px;
+}
+
 #questions{
   width:80vw;
   max-width:900px;
@@ -248,6 +265,7 @@ table th{
 table td{
   border:1px solid #A6A8AB;
   padding:5px;
+  color: #ffffff;
 }
 
 #colophon h6{
